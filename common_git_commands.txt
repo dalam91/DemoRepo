@@ -1,14 +1,17 @@
-command                 what it does
-git init				Init local Repo
-git add					add file to staging area/index
-git add *.ext           add file with extension .ext to index
-git add .                add all files to index
-git rm --cache          remove file from index
-git status				check status of working tree
-git commit				commits to index
-git push 				apply changes/ push to remote repo
-git pull				pull latest changes from remote repo
-git clone				copy remote repo into current dir
-touch file.ext			creates file in cd
+command                 			what it does
+git init							Init local Repo
+git add								add file to staging area/index
+git add *.ext           			add file with extension .ext to index
+git add .               			 add all files to index
+git rm --cache          			remove file from index
+git status							check status of working tree
+git commit							commits to index (In editor: press i to type, press esc and then type :wq to commit)
+git commit -m 'insert comment'      skip editor and commit
+git push 							apply changes/ push to remote repo
+git pull							pull latest changes from remote repo
+git clone							copy remote repo into current dir
+touch file.ext						creates file in cd
+
+
 git config --global user.name 'your username'
 git config --global user.email 'your email'
