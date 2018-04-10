@@ -1,4 +1,5 @@
-command                 			what it does
+COMMAND                 			WHAT IT DOES
+
 git init							Init local Repo
 git add								add file to staging area/index
 git add *.ext           			add file with extension .ext to index
@@ -10,7 +11,10 @@ git commit -m 'insert comment'      skip editor and commit
 git push 							apply changes/ push to remote repo
 git pull							pull latest changes from remote repo
 git clone							copy remote repo into current dir
+
+
 touch file.ext						creates file in cd
+clear								clear terminal
 
 
 git config --global user.name 'your username'
