@@ -20,6 +20,7 @@ touch file.ext						creates file in cd
 touch .gitignore                    added files/ directories get ignored
 clear								clear terminal
 
-
+git remote add origin https://link  add remote repo
+git push -u origin master           push changes to origin from master
 git config --global user.name 'your username'
 git config --global user.email 'your email'
