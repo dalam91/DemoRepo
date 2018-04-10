@@ -1,26 +1,26 @@
 COMMAND                 			WHAT IT DOES
 
-git init							Init local Repo
-git add								add file to staging area/index
-git add *.ext           			add file with extension .ext to index
-git add .               			 add all files to index
-git rm --cache          			remove file from index
-git status							check status of working tree
-git commit							commits to index (In editor: press i to type, press esc and then type :wq to commit)
+git init							              Init local Repo
+git add								              add file to staging area/index
+git add *.ext                       add file with extension .ext to index
+git add .                           add all files to index
+git rm --cache                      remove file from index
+git status							            check status of working tree
+git commit							            commits to index (In editor: press i to type, press esc and then type :wq to commit)
 git commit -m 'insert comment'      skip editor and commit
-git branch branchname				creates branch with name branchname
-git checkout branchname				switch to branch 
-git merge branchname				merges branch to master
-git push 							apply changes/ push to remote repo
-git pull							pull latest changes from remote repo
-git clone							copy remote repo into current dir
+git branch branchname				        creates branch with name branchname
+git checkout branchname				      switch to branch 
+git merge branchname				        merges branch to master
+git push 							              apply changes/ push to remote repo
+git pull							              pull latest changes from remote repo
+git clone							              copy remote repo into current dir
 git remote add orgin https://link		adds remote repo named origin
-git remote rm origin				remove remote repo origin
+git remote rm origin				        remove remote repo origin
 git push -u origin master           push to remote repo from local master
 
-touch file.ext						creates file in cd
+touch file.ext						          creates file in cd
 touch .gitignore                    added files/ directories get ignored
-clear								clear terminal
+clear								                clear terminal
 
 
 git config --global user.name 'your username'
